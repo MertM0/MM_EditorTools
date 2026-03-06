@@ -1,0 +1,27 @@
+{
+  "name": "com.mm.editortools",
+  "version": "0.1.0",
+  "displayName": "MM Editor Tools",
+  "description": "Unity Editor package providing 32 custom Inspector attributes for grouping, validation, conditionals, decorators, buttons, and visual enhancements. Zero dependencies. Designed for Game Jams and production projects.",
+  "unity": "6000.0",
+  "unityRelease": "60f1",
+  "documentationUrl": "https://github.com/mertm0/MM_EditorTools",
+  "changelogUrl": "https://github.com/mertm0/MM_EditorTools/blob/main/changelog.md",
+  "dependencies": {},
+  "keywords": [
+    "mm",
+    "editor",
+    "tools",
+    "inspector",
+    "attributes",
+    "validation",
+    "grouping",
+    "buttons",
+    "productivity"
+  ],
+  "author": {
+    "name": "Mert Mutlu",
+    "email": "mertapsi@gmail.com",
+    "url": "https://github.com/mertm0"
+  }
+}
