@@ -358,20 +358,41 @@ Open via **MM Tools > Validate Scene**. Scans the active scene for any `MM_Requi
 
 ```
 MM_EditorTools/
- package.json
- README.md
- changelog.md
- Runtime/
-    Scripts/
-        EnhancedInspector/
-            Attributes/
-            MM_AttributeAliases.cs
- Editor/
-     Scripts/
-         EnhancedInspector/
-             MM_EnhancedInspector.cs
-             Drawers/
-             MM_SceneValidator.cs
+├── package.json
+├── README.md
+├── changelog.md
+├── Runtime/
+│   └── Scripts/
+│       └── EnhancedInspector/
+│           ├── MM.EditorTools.EnhancedInspector.asmdef
+│           └── Attributes/
+│               ├── MM_AttributeAliases.cs
+│               ├── Buttons/
+│               ├── Conditional/
+│               ├── Decorators/
+│               ├── Grouping/
+│               ├── Validation/
+│               └── Visual/
+├── Editor/
+│   └── Scripts/
+│       ├── EnhancedInspector/
+│       │   ├── MM.EditorTools.EnhancedInspector.Editor.asmdef
+│       │   ├── Core/
+│       │   │   ├── MM_EnhancedInspector.cs
+│       │   │   └── MM_ValidationWindow.cs
+│       │   ├── Drawers/
+│       │   │   ├── Conditional/
+│       │   │   ├── Decorators/
+│       │   │   ├── Validation/
+│       │   │   └── Visual/
+│       │   └── Utilities/
+│       └── Shared/
+│           ├── MM_EditorToolsSettings.cs
+│           └── MM_PackageMenuItems.cs
+└── Sample/
+    ├── SampleScene.unity
+    └── Scripts/
+        └── MM_EditorToolsExample.cs
 ```
 
 ## License
