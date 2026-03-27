@@ -4,6 +4,15 @@ All notable changes to this package will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.1.1] - 28.03.2026
+
+### Changed
+- `MM_EnhancedInspector` now targets `UnityEngine.Object` (with `isFallback = true`) instead of just `MonoBehaviour`. This ensures all grouping, validation, and visual attributes work seamlessly on `ScriptableObject`, `NetworkBehaviour`, and other custom Unity object types.
+
+### Fixed
+- Added the missing `ListDrawerSettings` alias to the prefix-free `MM.EditorTools.EnhancedInspector.Prefix` namespace.
+- Removed internal "Create New Package" developer menu option from the distributed package scope.
+
 ## [0.1.0] - 06.03.2026
 
 ### Added

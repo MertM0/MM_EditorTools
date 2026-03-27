@@ -1,6 +1,6 @@
 {
   "name": "com.mm.editortools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "MM Editor Tools",
   "description": "Unity Editor package providing 32 custom Inspector attributes for grouping, validation, conditionals, decorators, buttons, and visual enhancements. Zero dependencies. Designed for Game Jams and production projects.",
   "unity": "6000.0",

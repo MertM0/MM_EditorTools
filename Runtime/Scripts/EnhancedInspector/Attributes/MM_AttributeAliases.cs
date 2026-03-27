@@ -245,6 +245,14 @@ namespace MM.EditorTools.EnhancedInspector.Prefix
         public MinMaxSliderAttribute(float min, float max) : base(min, max) { }
     }
     
+    /// <summary>
+    /// Alias for MM_ListDrawerSettingsAttribute - Customizes how lists/arrays are displayed.
+    /// </summary>
+    public class ListDrawerSettingsAttribute : MM.EditorTools.EnhancedInspector.MM_ListDrawerSettingsAttribute
+    {
+        public ListDrawerSettingsAttribute() : base() { }
+    }
+    
     // ==================== CONDITIONAL ATTRIBUTES ====================
     
     /// <summary>

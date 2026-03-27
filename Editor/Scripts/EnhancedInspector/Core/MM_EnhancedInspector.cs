@@ -8,12 +8,8 @@ using UnityEngine;
 namespace MM.EditorTools.EnhancedInspector
 {
     /// <summary>
-    /// Optimized Enhanced Custom Inspector for Unity MonoBehaviours.
-    /// Provides nested grouping (Box, Foldout, Tab, Horizontal) and method buttons.
-    /// Performance-optimized with reflection caching.
+    /// Base class for Enhanced Custom Inspector.
     /// </summary>
-    [CanEditMultipleObjects]
-    [CustomEditor(typeof(MonoBehaviour), true)]
     public class MM_EnhancedInspector : UnityEditor.Editor
     {
         #region Cache Classes
@@ -896,4 +892,16 @@ namespace MM.EditorTools.EnhancedInspector
         
         #endregion
     }
+
+    [CanEditMultipleObjects]
+    [CustomEditor(typeof(UnityEngine.Object), true, isFallback = true)]
+    public class MM_EnhancedInspector_Object : MM_EnhancedInspector { }
+
+    [CanEditMultipleObjects]
+    [CustomEditor(typeof(MonoBehaviour), true, isFallback = true)]
+    public class MM_EnhancedInspector_MonoBehaviour : MM_EnhancedInspector { }
+
+    [CanEditMultipleObjects]
+    [CustomEditor(typeof(ScriptableObject), true, isFallback = true)]
+    public class MM_EnhancedInspector_ScriptableObject : MM_EnhancedInspector { }
 }
