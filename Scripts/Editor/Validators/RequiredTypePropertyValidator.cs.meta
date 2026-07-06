@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b5906006942f25c4f98702a245e40afa
+timeCreated: 1668079329
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129996
+  packageName: NaughtyAttributes
+  packageVersion: 2.1.6
+  assetPath: Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/RequiredTypePropertyValidator.cs
+  uploadId: 943610

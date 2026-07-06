@@ -478,105 +478,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939276265}
-  - component: {fileID: 1939276264}
+  - component: {fileID: 1939276266}
   m_Layer: 0
-  m_Name: EditorToolsExample
+  m_Name: AttributesDemo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1939276264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939276263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d8e29979cd659249a35da14ff830070, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldoutExample1: 10
-  foldoutExample2: 5.5
-  foldoutExample3: 1
-  boxField1: Field 1
-  boxField2: 42
-  horizontal1: 10
-  horizontal2: 20
-  horizontal3: 30
-  playerRef: {fileID: 0}
-  spawnPoint: {fileID: 0}
-  targetRef: {fileID: 0}
-  mainCamera: {fileID: 0}
-  validatedNumber: 10
-  validatedFloat: 50
-  sceneRef: SampleScene
-  tagSelect: Player
-  layerSelect: 0
-  showFields: 1
-  conditionalField: I'm visible!
-  conditionalNumber: 42
-  hideFields: 1
-  hiddenField: I disappear when hideFields is true
-  weaponType: 2
-  meleeRange: 2
-  ammoCount: 30
-  manaPool: 100
-  lockSettings: 0
-  password: admin
-  maxPlayers: 4
-  infoValue: 100
-  warningValue: 50
-  errorValue: 0
-  characterLevel: 1
-  experience: 0
-  readOnlyScore: 0
-  readOnlyTime: 0
-  teamColor: {r: 1, g: 0, b: 0, a: 1}
-  enemyColor: {r: 1, g: 0, b: 0, a: 1}
-  characterIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  weaponTexture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
-  healthBar: 80.952385
-  loadProgress: 0.75
-  volume: 62.8
-  difficulty: 8
-  damageRange: {x: 40.31008, y: 68.775795}
-  speedRange: {x: 2, y: 8}
-  playerNames:
-  - Alice
-  - Bob
-  - Charlie
-  inventorySlots: 280000001e0000000a000000250000002800000028000000
-  enemyPrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 800432854}
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  enemyDatabase:
-  - enemyName: Skeleton
-    health: 30
-    damage: 8
-  - enemyName: Zombie
-    health: 60
-    damage: 12
-  - enemyName: Zombie
-    health: 60
-    damage: 12
-  itemInventory:
-  - itemName: Health Potion
-    stackSize: 5
-    price: 10
-  - itemName: Health Potion
-    stackSize: 5
-    price: 10
-  - itemName: Health Potion
-    stackSize: 5
-    price: 10
-  buttonTestValue: 0
 --- !u!4 &1939276265
 Transform:
   m_ObjectHideFlags: 0
@@ -592,6 +501,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939276266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939276263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69847f7b29a356489e76ea2f7463785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MM.Attributes::MM.Attributes.MM_AttributesDemo
+  gameName: MM Project
+  timeElapsed: 0
+  weaponPrefab: {fileID: 0}
+  damageRange: {x: 28, y: 68}
+  currentHealth: 39.92674
+  attackDamage: 15
+  spellSlots:
+  - Fireball
+  - Heal
+  showAdvancedSettings: 0
+  advancedLevel: 5
+  simpleStatus: Running in simple mode
+  selectedDifficulty: Normal
+  characterSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  description: 'A detailed description goes here.
+
+    sdada
+
+    adsdad
+
+    asd
+
+'
+  targetTag: Player
+  collisionLayer: 0
+  nextScene: SampleScene
+  currentDifficulty: 0
+  hardModeMultiplier: 2
+  hiddenLabelField: Look, no label!
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

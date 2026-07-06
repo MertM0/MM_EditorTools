@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9ea15bce59bacb144a3bc23019c00b8c
+MonoImporter:
+  externalObjects: {}
+  executionOrder: 0
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129996
+  packageName: NaughtyAttributes
+  packageVersion: 2.1.6
+  assetPath: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/FolderPathPropertyDrawer.cs
+  uploadId: 943610
