@@ -1,5 +1,14 @@
 ﻿# MM_EditorTools
 
+> **This package is no longer developed.** It has been replaced by
+> **[MM Inspector](https://github.com/MertM0/MM_Inspector)**, a rewrite on a property tree
+> where attributes stack on a single field, keep working inside nested types and list
+> elements, and can read their parameters from other members.
+>
+> ```
+> https://github.com/MertM0/MM_Inspector.git
+> ```
+
 Custom Inspector attributes for Unity. 32 attributes covering grouping, validation, conditionals, decorators, buttons, and visual controls. Zero dependencies, works out of the box via UPM.
 
 ## Table of Contents
